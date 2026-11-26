@@ -1,7 +1,7 @@
 #image validation, checks if paths are correct and follow rules
 from pathlib import Path
 
-ALLOWED_EXTENSIONS = set(['.img', '.dd', '.raw', '.e01'])
+ALLOWED_EXTENSIONS = set(['.img', '.dd', '.raw', '.001', '.txt'])
 
 def validate_img_path(image_path):
     path = Path(image_path)

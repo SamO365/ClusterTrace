@@ -12,6 +12,9 @@
 .idea/**/dictionaries
 .idea/**/shelf
 
+# Forensic test images
+image_tests/
+
 # AWS User-specific
 .idea/**/aws.xml
 
